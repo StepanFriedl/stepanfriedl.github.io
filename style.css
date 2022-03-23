@@ -1,0 +1,87 @@
+body {
+    background-image: url("background.png");
+    font-family: consolas, courier;
+}
+
+h1 {
+    color: blue;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    margin-left: 1px;
+    ;
+}
+
+h2 {
+    color: magenta;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-left: 1px;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.3;
+    margin-left: 1px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    line-height: 3;
+    margin-left: 1px;
+}
+
+a {
+    color: #ff0099;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+.spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigtitle {
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+}
+
+.text {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.title {
+    font-size: 33px;
+    line-height: 1.7;
+}
+
+.paddingleft {
+    padding-left: 10%;
+    text-align: center;
+}
+
+.paddingright {
+    padding-right: 10%;
+}
+
+.paddingimg {
+    padding-left: 10%;
+}
+.paddingimg1 {
+    padding-left: 20px;
+}
